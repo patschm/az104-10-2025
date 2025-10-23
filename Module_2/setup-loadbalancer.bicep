@@ -1,6 +1,6 @@
 param location string = resourceGroup().location
 param vm_names array = ['vm-1', 'vm-2']
-param network_name string = 'network-1'
+param network_name string = 'network-lb'
 param address_prefix string = '192.168.0.0/16'
 param subnets array = [
   {

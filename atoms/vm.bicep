@@ -1,18 +1,18 @@
-param vm_name string = 'vm1'
+param vm_name string = 'vm2'
 param username string = 'Student'
 @secure()
 param password string = 'Test_1234567'
 param location string = resourceGroup().location
 param nic_name string = '${vm_name}-nic'
 param ip_name string = '${vm_name}-ip'
-param network_name string = 'my-network'
-param subnet_name string = 'public'
+param network_name string = 'Weather-network'
+param subnet_name string = 'Frontend'
 param with_public_ip bool = true
-param with_iis bool = false
+param with_iis bool = true
 param image object = {
   publisher: 'microsoftwindowsdesktop'
   offer:'windows-11'
-  sku:'win11-24h2-pro'
+  sku:'win11-22h2-ent'
   version:'latest'
   license: 'Windows_Client'
 }

@@ -8,7 +8,7 @@ resource app_plan 'Microsoft.Web/serverfarms@2022-03-01' = {
   name: var_app_plan
   location: location
   sku: {
-    name: 'P1V3'
+    name: 'P0V3'
   }
 }
 

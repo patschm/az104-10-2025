@@ -5,14 +5,14 @@ param password string = 'Test_1234567'
 param location string = resourceGroup().location
 param nic_name string = '${vm_name}-nic'
 param ip_name string = '${vm_name}-ip'
-param network_name string = 'my-network'
-param subnet_name string = 'public'
+param network_name string = 'hup-holland-hub'
+param subnet_name string = 'routingsubnet'
 param with_public_ip bool = true
 param with_iis bool = false
 param image object = {
   publisher: 'microsoftwindowsserver'
   offer:'WindowsServer'
-  sku:'2025-datacenter'
+  sku:'2022-datacenter'
   version:'latest'
   license: 'Windows_Server'
 }
@@ -104,6 +104,7 @@ resource nic 'Microsoft.Network/networkInterfaces@2024-07-01' = {
     networkSecurityGroup: {
       id: resourceId('Microsoft.Network/networkSecurityGroups', nsg_name)
     }
+    enableIPForwarding: true
   }
 }
 

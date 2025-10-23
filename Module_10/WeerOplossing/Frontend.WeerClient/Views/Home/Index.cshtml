@@ -1,0 +1,18 @@
+﻿@model List<Backend.Models.WeatherForecast>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <ul>
+    @foreach(var line in Model)
+    {
+      <li><div>
+          <h2>@(line.Date): @line.TemperatureC</h2>
+          <h3>@line.Summary</h3>
+      </div></li>  
+    }
+    </ul>
+</div>

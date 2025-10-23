@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.WeerApi", "Backend.WeerApi\Backend.WeerApi.csproj", "{2CDB1542-A15D-4511-A91A-7E9FC5D04DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend.WeerClient", "Frontend.WeerClient\Frontend.WeerClient.csproj", "{AA0C454D-06C4-486F-8F70-698BE5182684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Models", "Backend.Models\Backend.Models.csproj", "{C1B3EE62-9376-4B18-90DE-7552E01F50F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CDB1542-A15D-4511-A91A-7E9FC5D04DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDB1542-A15D-4511-A91A-7E9FC5D04DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDB1542-A15D-4511-A91A-7E9FC5D04DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDB1542-A15D-4511-A91A-7E9FC5D04DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C454D-06C4-486F-8F70-698BE5182684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C454D-06C4-486F-8F70-698BE5182684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C454D-06C4-486F-8F70-698BE5182684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C454D-06C4-486F-8F70-698BE5182684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B3EE62-9376-4B18-90DE-7552E01F50F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B3EE62-9376-4B18-90DE-7552E01F50F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B3EE62-9376-4B18-90DE-7552E01F50F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B3EE62-9376-4B18-90DE-7552E01F50F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
